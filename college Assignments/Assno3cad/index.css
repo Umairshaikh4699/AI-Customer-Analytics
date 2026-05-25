@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: #222;
+    padding: 20px;
+}
+
+.banner {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px yellow;
+}
+
+.intro {
+    margin: 20px auto;
+    width: 80%;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: gold;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: orange;
+}
+
+#tipBox {
+    margin-top: 15px;
+    font-weight: bold;
+    color: lightgreen;
+}
+
+footer {
+    margin-top: 40px;
+    background: #222;
+    padding: 10px;
+}
