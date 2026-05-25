@@ -18,7 +18,7 @@ uploaded_file = st.file_uploader(
 if uploaded_file is not None:
 
     # Read CSV
-    df = pd.read_csv("Telco_customer_churn.csv")
+    df = pd.read_csv("Telco-Customer-Churn.csv")
 
     st.write(df.head())
 
