@@ -1,9 +1,6 @@
 import streamlit as st
-
 import pandas as pd
-
 import matplotlib.pyplot as plt
-
 from sklearn.cluster import KMeans
 
 
@@ -21,10 +18,15 @@ uploaded_file = st.file_uploader(
 if uploaded_file is not None:
 
     # Read CSV
-    df = pd.read_csv(uploaded_file)
+    df = pd.read_csv("Telco_customer_churn.csv")
 
     st.write(df.head())
 
+    df = pd.read_csv("customer_data.csv")
+
+    st.write(df.columns)
+
+    X = df[['tenure', 'MonthlyCharges', 'TotalCharges']]
 
     # KPIs
     st.subheader("Key Metrics")
