@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Hp/Desktop/python/c++",
-      "program": "c:/Users/Hp/Desktop/python/c++/build/Debug/outDebug",
+      "cwd": "c:/Users/Hp/Desktop/AI-Customer-Analytics",
+      "program": "c:/Users/Hp/Desktop/AI-Customer-Analytics/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
