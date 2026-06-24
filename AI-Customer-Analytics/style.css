@@ -1,0 +1,10 @@
+h1 {
+    color: #1f77b4;
+    text-align: center;
+}
+
+.stButton > button {
+    background-color: #1f77b4;
+    color: white;
+    border-radius: 10px;
+}
