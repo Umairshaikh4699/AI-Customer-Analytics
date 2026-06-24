@@ -7,7 +7,6 @@
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat)
 ![Deployed on](https://img.shields.io/badge/Deployed%20on-Streamlit%20Cloud-FF4B4B?style=flat)
 
 ---
@@ -112,30 +111,16 @@ Use the EDA and model training notebooks to explore the dataset and retrain the 
 
 ```
 AI-Customer-Analytics/
-├── app.py                    # Streamlit app entry point
-├── requirements.txt          # Python dependencies
-├── README.md
-│
-├── pages/
-│   ├── 01_Dashboard.py       # KPIs and churn overview
-│   ├── 02_Predictions.py     # Per-customer churn risk scores
-│   ├── 03_Segments.py        # Demographic & segment analysis
-│   └── 04_Trends.py          # Churn trend over time
-│
-├── model/
-│   ├── train.py              # Model training script
-│   └── churn_model.pkl       # Serialized Scikit-learn model
 │
 ├── data/
-│   └── customers.csv         # Input customer dataset
-│
-├── notebooks/
-│   ├── eda.ipynb             # Exploratory data analysis
-│   └── model_training.ipynb  # Feature engineering & model dev
-│
-└── utils/
-    ├── preprocessing.py      # Data cleaning & feature pipeline
-    └── charts.py             # Reusable Plotly/Seaborn charts
+│   └── Telco-Customer-Churn.csv
+├── app.py                 
+├── Analysis.py            
+├── model.py               
+├── segmentation.py        
+├── style.css              
+├── requirements.txt       
+└── .gitignore             
 ```
 
 ---
